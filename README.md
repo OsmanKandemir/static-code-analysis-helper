@@ -132,7 +132,7 @@ Please, scan the only project files for the correct result.
 
 ## Development and Contribution
 
-To continue developing the application StaticCodeAnalysisHelper/LanguagesFunctions.py you can add new functions to the file according to the following syntaxes.
+To continue developing the application **StaticCodeAnalysisHelper/LanguagesFunctions.py** you can add new functions to the file according to the following syntaxes.
 
 ```
 {"function": "function()","description": "description"}
