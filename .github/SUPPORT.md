@@ -1,0 +1,1 @@
+Github Issues are ONLY for reporting errors and feature requests. For support, questions and discussions, use my e-mail address on CODE_OF_CONDUCT markdown file.
