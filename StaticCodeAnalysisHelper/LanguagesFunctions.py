@@ -204,10 +204,10 @@ def PhpPrograming():
     {"function": "$this->getRequest()->getCookie('foo')","description": "Cookie processing is being performed."}, 
     {"function": "call_user_func_array()","description": "The command execution function has been detected."}, 
     {"function": "$this->getRequest()->getPost()","description": "POST method operation has been detected."}, 
-    {"function": "Yii::$app->view->renderFile()","description": "A page render process has been detected."}, 
+    {"function": "Yii::$app->view->renderFile()","description": "A page render process has been detected."},
+    {"function": "mysqli_real_escape_string()","description": "SQL query operations are being performed."}, 
     {"function": "Yii::$app->response->headers->set()","description": "Header operation has been deted."}, 
     {"function": "$this->_redirect()","description": "Redirect to a page processing is being performed."}, 
-    {"function": "mysqli_real_escape_string()","description": "SQL query operations are being performed."}, 
     {"function": "$this->request->getData()","description": "POST method operation has been detected."}, 
     {"function": "create_function()","description": "The command execution function has been detected."}, 
     {"function": "readlink()","description": "This function may cause path traversal vulnerabilities."}, 
@@ -434,12 +434,12 @@ def RustProgrammingLanguage():
     {"function": "actix_web::HttpRequest::headers()","description": "Form data operations."},
     {"function": "rocket::Request::form_value()","description": "Form data operations."},
     {"function": "fs::File::open()","description": "File operation has been detected."},
+    {"function": "actix_web::HttpResponse::body()","description": "Cookie operations."},
     {"function": "actix_web::HttpRequest::query()","description": "query operations."}, 
     {"function": "rocket::http::CookieJar::get()","description": "Cookie operations."}, 
-    {"function": "actix_web::HttpResponse::body()","description": "Cookie operations."}, 
     {"function": "rocket::Request::query_value()","description": "Query operations."},
+    {"function": "warp::fs::file()","description": "File process has been detected."},
     {"function": "rocket::fs::NamedFile::open()","description": "File operations."},
-    {"function": "warp::fs::file()","description": "File process has been detected."}, 
     {"function": "actix_web::web::block()","description": "Command operations."}, 
     {"function": "rocket::Request::remote()","description": "IP operations."}
 
@@ -477,12 +477,12 @@ def PerlProgrammingLanguage():
     {"function": "retrieve()","description": "Serialization datas are reading."},
     {"function": "upload()","description": "It may be a file upload process."},
     {"function": "require()","description": "A file is being included."}, 
-    {"function": "system()","description": "Command injection risk."}, 
+    {"function": "system()","description": "Command injection risk."},
+    {"function": "post()","description": "It may be a POST request."}, 
+    {"function": "get()","description": "It may be a GET request."},
     {"function": "exec()","description": "Command injection risk."}, 
     {"function": "qx()","description": "Command injection risk."}, 
-    {"function": "open()","description": "Any file is opening."},
-    {"function": "get()","description": "It may be a GET request."},
-    {"function": "post()","description": "It may be a POST request."}
+    {"function": "open()","description": "Any file is opening."}
 
     ]
 
@@ -490,24 +490,24 @@ def SwiftProgrammingLanguage():
 
     return [
     
-    {"function": "FileManager.default.contentsOfDirectory(atPath:)","description": "Folder listening operation has been detected."}, 
+    {"function": "FileManager.default.contentsOfDirectory(a)","description": "Folder listening operation has been detected."}, 
     {"function": "FileManager.default.removeItem()","description": "If the input is taken from the user, there is a risk."}, 
     {"function": "SecRandomCopyBytes()","description": "There may be deficiencies in the random data production."}, 
-    {"function": "URLSession.dataTask(with:)","description": "SSRF risk if the URL is created with user input."}, 
+    {"function": "URLSession.dataTask()","description": "SSRF risk if the URL is created with user input."}, 
     {"function": "FileManager.default.contentsOfDirector()","description": "File operation is being performed."},
     {"function": "FileManager.default.createFile","description": "File create operation has been detected."},
     {"function": "parameters.get()","description": "If the input is taken from the user, there is a risk."}, 
-    {"function": "FileHandle()","description": "File read operation has been detected."}, 
     {"function": "JSONDecoder()","description": "JSON deserialization operation has been detected."}, 
     {"function": "req.session.set()","description": "Session data operation has been detected."}, 
     {"function": "req.auth.require()","description": "Authentication operation is performing."},
     {"function": "PropertyListDecoder()","description": "Data converting has been detected."}, 
     {"function": "req.cookies.append()","description": "Cookie operation has been detected."},
-    {"function": "response.redirect(to:)","description": "It function redirect to a page."},
+    {"function": "response.redirect()","description": "It function redirect to a page."},
     {"function": "req.auth.get()","description": "Authentication operation is performing."}, 
     {"function": "Process.launchedProcess()","description": "A command may be executing."},
     {"function": "stencil.render()","description": "Dynamic content is processing - XSS."}, 
     {"function": "LeafRenderer.render()","description": "Dynamic content is processing."}, 
+    {"function": "FileHandle()","description": "File read operation has been detected."}, 
     {"function": "rawHTML()","description": "Raw HTML content may be being rendered."}, 
     {"function": "query.get()","description": "There may be a risk of XSS vs SQL."}, 
     {"function": "session()","description": "Session operation has been detected."},
@@ -516,7 +516,7 @@ def SwiftProgrammingLanguage():
     {"function": "Process()","description": "A command may be executing."},
     {"function": "URLRequest()","description": "A URL may be opening."}, 
     {"function": "SHA1.hash()","description": "Hash Operation."},
-    {"function": "MD5.hash()","description": "Hash Operation."},
+    {"function": "MD5.hash()","description": "Hash Operation."}
     
     ]
 
@@ -552,7 +552,7 @@ def GolangProgrammingLanguage():
     {"function": "session.Get()","description": "Reading data a session."}, 
     {"function": "session.Set()","description": "Setting data a session."},
     {"function": "c.Request()","description": "A request is processing."}, 
-    {"function": "fmt.Println()","description": "A data is being shown."},
+    {"function": "fmt.Println()","description": "A data is being shown."}
 
     ]
 
