@@ -83,7 +83,7 @@ python setup.py install
 
 The application is [available on PyPI](https://pypi.org/project/StaticCodeAnalysisHelper/). To install with pip:
 ```
-pip install StaticCodeAnalysisHelper
+pip install staticcodeanalysishelper
 
 ```
 ### Function Usage
