@@ -4,7 +4,7 @@
 [![Static-Code-Analysis-Helper](https://img.shields.io/badge/SCA-Helper-red)](https://www.github.com/OsmanKandemir/static-code-analysis-helper)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/OsmanKandemir/static-code-analysis-helper)
 [![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/OsmanKandemir/static-code-analysis-helper/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/python-3.10-green)](https://www.python.org)
+[![Python Version](https://img.shields.io/badge/python-3.11-green)](https://www.python.org)
 [![Docker](https://img.shields.io/badge/docker-build-important.svg?logo=Docker)](https://www.docker.com)
 
 

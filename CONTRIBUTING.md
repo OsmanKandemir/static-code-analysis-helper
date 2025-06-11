@@ -1,4 +1,4 @@
-# DocF Sec Check Contribution
+# Static Code Analysis Helper Contribution
 
 #### Open issue
 Open issue about your feature or bug in this [here](https://github.com/OsmanKandemir/static-code-analysis-helper/issues).

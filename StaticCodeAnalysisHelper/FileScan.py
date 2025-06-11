@@ -58,7 +58,7 @@ class AdvancedFileScanning:
         if self.programming_ == "dart":
             for i in DartProgrammingLanguage():self.FindVulnFunc(i["function"],i["description"]) 
 
-    def FindVulnFunc(self,FunctionName,Description):
+    def FindVulnFunc(self,FunctionName:str,Description:str):
         for root, dirs, files in os.walk(self.path_):
             for file in files:
                 folder_path = os.path.join(root, file)
@@ -73,7 +73,7 @@ class AdvancedFileScanning:
                                 msg(f"{bcolors.YELLOW}'{FunctionName}'{bcolors.ENDC} function was found. {bcolors.LOG}{Description}{bcolors.ENDC} - Path: {bcolors.OKGREEN}{folder_path},{bcolors.ENDC}  {bcolors.LOG}{count}. Line{bcolors.ENDC}")
                                 if self.output_:
                                     with open(f"{self.output_}", "a+") as f:
-                                        f.write(f"'{FunctionName}()' function was found. {Description} - Path: {folder_path}, {count}. Line \n")
+                                        f.write(f"'{FunctionName}' function was found. {Description} - Path: {folder_path}, {count}. Line \n")
                                 else:
                                     pass
                             count += 1
