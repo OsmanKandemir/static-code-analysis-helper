@@ -12,7 +12,7 @@ setup(
     name="StaticCodeAnalysisHelper",
     version="1.0.0",
     author="OsmanKandemir",
-    author_email="osmankandemir00@gmail.com",
+    author_email="osmankandemir00[@]gmail[.]com",
     license='GPL-3.0',
     url='https://github.com/OsmanKandemir/static-code-analysis-helper.git',
     description=DESCRIPTION,
