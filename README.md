@@ -44,7 +44,7 @@ Note : Many of the functions described here may not cause vulnerabilities.
 
 #### Types of attacks related to results
 
-SQLi, XSS, XXE, CSRF, SSTI, SSRF, IDOR, CORS, XSHM, LFI, DoS, DDoS, RFI, Weak Encryption / Insecure Cryptographic Storage, Path Traversel, Session Attacks,Open Redirect, Insecure File Permissions, XPath Injection, File Uploads, Memory Corruption / Buffer Overflow, Security Misconfiguration, Reflected File Download, CSV Injection, Command Injection, WebSocket Vulnerabilities, Race Condition, Code Injection, Malicious File Deserialization, JWT Vulnerabilities, Broken Access Control, Content Spoofing, Authentication Vulnerabilities, Cookie Vulnerabilities, Business Logic Vulnerabilities.
+SQLi, XSS, XXE, CSRF, SSTI, SSRF, IDOR, CORS, XSHM, LFI, DoS, DDoS, RFI, Weak Encryption / Insecure Cryptographic Storage, Path Traversel, Session Attacks,Open Redirect, Insecure File Permissions, XPath Injection, File Uploads, Memory Corruption / Buffer Overflow, Security Misconfiguration, Reflected File Download, CSV Injection, Command Injection, WebSocket Vulnerabilities, Race Condition, Cache Poisoning, Code Injection, Malicious File Deserialization, JWT Vulnerabilities, Broken Access Control, Content Spoofing, Authentication Vulnerabilities, Cookie Vulnerabilities, Business Logic Vulnerabilities.
 
 
 ## TODO
