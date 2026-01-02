@@ -5,6 +5,7 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/OsmanKandemir/static-code-analysis-helper)
 [![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/OsmanKandemir/static-code-analysis-helper/blob/main/LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.11-green)](https://www.python.org)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/staticcodeanalysishelper?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/staticcodeanalysishelper)
 [![Docker](https://img.shields.io/badge/docker-build-important.svg?logo=Docker)](https://www.docker.com)
 
 
